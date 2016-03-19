@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="child_activity_size">480dp</dimen>
+    <dimen name="centered_card_view_width">550dp</dimen>
+    <dimen name="centered_card_view_height">600dp</dimen>
+    <dimen name="nearby_fragment_width">290dp</dimen>
+    <dimen name="inner_dialog_width">448dp</dimen>
+    <dimen name="circle_object_inside_app_size">270dp</dimen>
+    <dimen name="tab_indicator_height">4dp</dimen>
+    <dimen name="dashboard_app_bar_height">136dp</dimen>
+</resources>

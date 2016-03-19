@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="user_span_size">2</integer>
+    <integer name="number_of_telepathies_for_each_request">7</integer>
+    <integer name="number_of_user_messages_for_each_request">13</integer>
+    <integer name="default_direction_base_level_bidi">-2</integer>
+</resources>

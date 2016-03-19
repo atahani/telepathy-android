@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_classify_message_content"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/icon_with_text_row_height"
+    android:layout_marginBottom="@dimen/half_vertical_margin"
+    android:paddingStart="@dimen/normal_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/im_user_photo"
+        android:layout_width="@dimen/small_circle_image_size"
+        android:layout_height="@dimen/small_circle_image_size"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop" />
+
+    <com.atahani.telepathy.ui.component.DetectLTextView
+        android:id="@+id/tx_unread_message_counter"
+        android:layout_width="@dimen/unread_message_indicator_circle_width"
+        android:layout_height="@dimen/unread_message_indicator_circle_width"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/circle_indicator_background"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tx_message_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="end"
+        android:paddingEnd="@dimen/half_horizontal_margin"
+        android:paddingStart="@dimen/half_horizontal_margin"
+        android:paddingTop="@dimen/half_vertical_margin"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/text_size_xsmall" />
+
+    <com.atahani.telepathy.ui.component.DetectLTextView
+        android:id="@+id/tx_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_toStartOf="@+id/tx_message_status"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:maxLines="1"
+        android:paddingTop="4dp"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/text_size_large" />
+
+    <com.atahani.telepathy.ui.component.DetectLTextView
+        android:id="@+id/tx_second_message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="72dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/half_vertical_margin"
+        android:paddingEnd="@dimen/half_horizontal_margin"
+        android:textColor="@color/theme_primary_text_color"
+        android:textSize="@dimen/text_size_medium" />
+
+
+    <View
+        android:id="@+id/v_separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp" />
+</RelativeLayout>

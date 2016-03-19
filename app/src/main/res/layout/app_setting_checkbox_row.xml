@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ly_item_content"
+              android:orientation="horizontal"
+              android:layout_height="@dimen/setting_item_height"
+              android:layout_width="match_parent"
+              android:paddingStart="@dimen/normal_horizontal_margin"
+              android:paddingEnd="@dimen/normal_horizontal_margin"
+              android:paddingTop="@dimen/half_vertical_margin"
+              android:paddingBottom="@dimen/half_vertical_margin"
+              android:background="@drawable/item_background"
+              android:clickable="true">
+    <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tx_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/theme_primary_text_color"
+            android:textSize="@dimen/text_size_large"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textAppearance="@style/TextAppearance.FontPath"/>
+    <CheckBox
+            android:id="@+id/ch_item"
+            android:button="@drawable/abc_btn_check_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+</RelativeLayout>

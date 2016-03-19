@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr">
+
+    <RelativeLayout
+        android:id="@+id/ly_message_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layoutDirection="locale">
+
+        <View
+            android:id="@+id/v_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tx_matched_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/theme_primary_text_color"
+            android:textSize="@dimen/text_size_medium" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tx_cross_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_matched_status"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/normal_vertical_margin"
+            android:textSize="@dimen/text_size_xsmall" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/button_ripple_effect_circle"
+            android:clickable="true"
+            android:contentDescription="@string/action_delete"
+            android:padding="@dimen/normal_drawable_padding"
+            android:src="@mipmap/ic_delete_white_24dp" />
+    </RelativeLayout>
+
+    <com.atahani.telepathy.ui.component.DetectLTextView
+        android:id="@+id/tx_first_message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/user_message_max_width"
+        android:textColor="@color/theme_primary_text_color"
+        android:textSize="@dimen/text_size_m_large" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tx_message_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/half_horizontal_margin"
+        android:paddingStart="@dimen/half_horizontal_margin"
+        android:textSize="@dimen/text_size_xsmall" />
+
+    <com.atahani.telepathy.ui.component.DetectLTextView
+        android:id="@+id/tx_second_message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/user_message_max_width"
+        android:textColor="@color/theme_primary_text_color"
+        android:textSize="@dimen/text_size_m_large" />
+</RelativeLayout>

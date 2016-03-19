@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/normal_vertical_margin">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tx_about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/double_horizontal_margin"
+        android:text="@string/title_about_telepathy"
+        android:textColor="@color/theme_primary_text_color"
+        android:textSize="@dimen/text_size_x_large" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_vertical_margin">
+
+        <LinearLayout
+            android:id="@+id/ly_main_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/double_horizontal_margin"
+            android:paddingStart="@dimen/double_horizontal_margin">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tx_rate_us_on_play_store"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/white"
+                android:drawablePadding="12dp"
+                android:drawableStart="@mipmap/ic_play_store_24dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingEnd="@dimen/normal_horizontal_margin"
+                android:paddingStart="@dimen/normal_horizontal_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:text="@string/label_rate_us_on_google_play_store"
+                android:textColor="@color/theme_primary_text_color"
+                android:textSize="@dimen/text_size_medium" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tx_twitter_telepathy"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/white"
+                android:drawablePadding="12dp"
+                android:drawableStart="@mipmap/ic_twitter_24dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingEnd="@dimen/normal_horizontal_margin"
+                android:paddingStart="@dimen/normal_horizontal_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:text="@string/label_telepathy_on_twitter"
+                android:textColor="@color/theme_primary_text_color"
+                android:textSize="@dimen/text_size_medium" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tx_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/white"
+                android:drawablePadding="12dp"
+                android:drawableStart="@mipmap/ic_privacy_24dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingEnd="@dimen/normal_horizontal_margin"
+                android:paddingStart="@dimen/normal_horizontal_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:text="@string/label_privacy_policy"
+                android:textColor="@color/theme_primary_text_color"
+                android:textSize="@dimen/text_size_medium" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tx_report_bug"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="4dp"
+                android:background="@android:color/white"
+                android:drawablePadding="12dp"
+                android:drawableStart="@mipmap/ic_bug_report_24dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="@dimen/half_vertical_margin"
+                android:paddingEnd="@dimen/normal_horizontal_margin"
+                android:paddingStart="@dimen/normal_horizontal_margin"
+                android:paddingTop="@dimen/half_vertical_margin"
+                android:text="@string/label_report_bug"
+                android:textColor="@color/theme_primary_text_color"
+                android:textSize="@dimen/text_size_medium" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tx_android_ver_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/half_vertical_margin"
+                android:layout_marginTop="@dimen/normal_vertical_margin"
+                android:textAlignment="center"
+                android:textColor="@color/theme_primary_text_color"
+                android:textSize="@dimen/text_size_small" />
+
+            <com.atahani.telepathy.ui.component.AboutFooterImageView
+                android:id="@+id/im_delete_user_account"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:clickable="true"
+                android:contentDescription="@string/content_d_delete_user_account"
+                android:scaleType="fitEnd"
+                android:src="@drawable/about_us_footer" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

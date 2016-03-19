@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--THEMES COLORS-->
+
+    <!--purple theme-->
+    <color name="purple_theme_primary">#673AB7</color>
+    <color name="purple_theme_primary_dark">#512DA8</color>
+    <color name="purple_theme_primary_light">#D1C4E9</color>
+    <color name="purple_theme_accent">#009688</color>
+
+    <!--red theme-->
+    <color name="red_theme_primary">#F44336</color>
+    <color name="red_theme_primary_dark">#D32F2F</color>
+    <color name="red_theme_primary_light">#FFCDD2</color>
+    <color name="red_theme_accent">#8BC34A</color>
+
+    <!--green theme-->
+    <color name="green_theme_primary">#8BC34A</color>
+    <color name="green_theme_primary_dark">#689F38</color>
+    <color name="green_theme_primary_light">#DCEDC8</color>
+    <color name="green_theme_accent">#7C4DFF</color>
+
+    <!--blue theme-->
+    <color name="blue_theme_primary">#03A9F4</color>
+    <color name="blue_theme_primary_dark">#0288D1</color>
+    <color name="blue_theme_primary_light">#B3E5FC</color>
+    <color name="blue_theme_accent">#FF4081</color>
+
+    <!--indigo theme-->
+    <color name="indigo_theme_primary">#3F51B5</color>
+    <color name="indigo_theme_primary_dark">#303F9F</color>
+    <color name="indigo_theme_primary_light">#C5CAE9</color>
+    <color name="indigo_theme_accent">#88C45B</color>
+
+    <!--grey theme-->
+    <color name="grey_theme_primary">#9E9E9E</color>
+    <color name="grey_theme_primary_dark">#616161</color>
+    <color name="grey_theme_primary_light">#F5F5F5</color>
+    <color name="grey_theme_accent">#FF5722</color>
+
+    <!--brown theme-->
+    <color name="brown_theme_primary">#795548</color>
+    <color name="brown_theme_primary_dark">#5D4037</color>
+    <color name="brown_theme_primary_light">#D7CCC8</color>
+    <color name="brown_theme_accent">#FFC107</color>
+
+    <!--other main colors-->
+
+    <color name="theme_windows_color_background">#F9F9F9</color>
+    <color name="theme_primary_text_color">#212121</color>
+    <color name="theme_primary_text_inverse_color">#deffffff</color>
+    <color name="theme_secondary_text_color">#727272</color>
+    <color name="theme_divider_color">#B6B6B6</color>
+    <color name="theme_primary_tint_icon_color">#717171</color>
+    <color name="theme_default_color_highlight">#F0F0F0</color>
+    <color name="theme_icon_color_highlight">#de717171</color>
+    <color name="theme_icon_color_highlight_rectangle">#F2717171</color>
+    <color name="theme_sign_in_background_color">@android:color/white</color>
+    <color name="theme_sign_in_primary_color">#4285F4</color>
+    <color name="theme_tab_un_selected_color">#8cffffff</color>
+    <color name="theme_tab_selected_color">#ffffff</color>
+    <color name="theme_selected_classify_message_background">@color/theme_default_color_highlight
+    </color>
+
+    <!--transparent colors-->
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#8C000000</color>
+    <color name="transparent_gray">#CC636363</color>
+
+</resources>

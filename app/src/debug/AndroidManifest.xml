@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mobi.atahani.telepathy">
+
+    <!-- uses permission start -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- uses permission end -->
+
+    <application
+        android:name="com.atahani.telepathy.TApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Indigo_AppTheme">
+        <activity
+            android:name="com.atahani.telepathy.ui.DashboardActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.SignInActivity"
+            android:label="@string/blank"></activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.CompleteSignUpActivity"
+            android:label="@string/blank"></activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.PhotoCropActivity"
+            android:label="@string/blank"></activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.AppSettingsActivity"
+            android:label="@string/blank"
+            android:theme="@style/Indigo_AppTheme_Child"></activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.SendTelepathyActivity"
+            android:label="@string/blank"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.EditUsernameActivity"
+            android:label="@string/title_edit_username"
+            android:theme="@style/Indigo_AppTheme_Child"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"></activity>
+        <activity
+            android:name="com.atahani.telepathy.ui.EditDisplayNameActivity"
+            android:label="@string/title_edit_display_name"
+            android:theme="@style/Indigo_AppTheme_Child"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- [START gcm_receiver] -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="social.telepathy.android" />
+            </intent-filter>
+        </receiver>
+        <!-- [END gcm_receiver] -->
+
+
+        <!-- [START gcm_listener] -->
+        <service
+            android:name="com.atahani.telepathy.network.gcm.TGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <!-- [END gcm_listener] -->
+
+
+        <!-- [START instanceId_listener] -->
+        <service
+            android:name="com.atahani.telepathy.network.gcm.TInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <!-- [END instanceId_listener] -->
+        <service
+            android:name="com.atahani.telepathy.network.gcm.RegistrationIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.atahani.telepathy.ui.UserInfoActivity"
+            android:label="@string/blank"
+            android:theme="@style/ThemeOverlay.MyDialogActivity">
+
+        </activity>
+
+    </application>
+</manifest>

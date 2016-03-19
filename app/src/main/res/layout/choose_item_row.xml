@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ly_choose_item_content"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+              android:background="@drawable/item_background"
+              android:clickable="true"
+              android:paddingStart="@dimen/normal_horizontal_margin"
+              android:paddingEnd="@dimen/normal_horizontal_margin">
+    <ImageView
+            android:id="@+id/im_choose_item_icon"
+            android:layout_width="@dimen/setting_icon_size"
+            android:layout_height="@dimen/setting_icon_size"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:visibility="gone"/>
+    <com.atahani.telepathy.ui.component.DetectLTextView
+            android:id="@+id/tx_choose_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/theme_primary_text_color"
+            android:textSize="@dimen/text_size_m_large"
+            android:layout_marginStart="@dimen/double_horizontal_margin"/>
+</LinearLayout>

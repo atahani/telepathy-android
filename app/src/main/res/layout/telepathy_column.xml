@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/telepathy_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/v_telepathy_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/telepathy_column_header_height"
+            android:layout_alignParentTop="true" />
+
+        <ImageView
+            android:id="@+id/im_image_profile"
+            android:layout_width="@dimen/small_circle_image_size"
+            android:layout_height="@dimen/small_circle_image_size"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/half_vertical_margin"
+            android:contentDescription="@string/content_d_image_profile" />
+
+        <com.atahani.telepathy.ui.component.DetectLTextView
+            android:id="@+id/tx_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im_image_profile"
+            android:layout_gravity="start"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:paddingEnd="@dimen/normal_horizontal_margin"
+            android:paddingStart="@dimen/normal_horizontal_margin"
+            android:textColor="@color/theme_primary_text_inverse_color"
+            android:textSize="@dimen/text_size_large" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tx_telepathy_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tx_display_name"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:paddingEnd="@dimen/normal_horizontal_margin"
+            android:paddingStart="@dimen/normal_horizontal_margin"
+            android:textColor="@color/theme_primary_text_inverse_color"
+            android:textSize="@dimen/text_size_small" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_delete_telepathy"
+            style="@style/mini_fab_below_of_element"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/v_telepathy_header"
+            android:clickable="true"
+            android:src="@mipmap/ic_delete_white_24dp"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fabSize="mini"
+            app:pressedTranslationZ="12dp" />
+
+        <com.atahani.telepathy.ui.component.DetectLTextView
+            android:id="@+id/tx_telepathy_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/v_telepathy_header"
+            android:paddingBottom="@dimen/double_vertical_margin"
+            android:paddingEnd="@dimen/normal_horizontal_margin"
+            android:paddingStart="@dimen/normal_horizontal_margin"
+            android:paddingTop="@dimen/double_vertical_margin"
+            android:textColor="@color/theme_primary_text_color"
+            android:textSize="@dimen/text_size_m_large" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

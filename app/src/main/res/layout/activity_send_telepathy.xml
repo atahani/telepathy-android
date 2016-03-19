@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/default_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:theme="@style/BaseTheme_Toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/im_image_profile"
+                android:layout_width="@dimen/small_image_profile_size"
+                android:layout_height="@dimen/small_image_profile_size"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/half_horizontal_margin"
+                android:scaleType="centerCrop" />
+
+            <com.atahani.telepathy.ui.component.DetectLTextView
+                android:id="@+id/tx_display_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/half_horizontal_margin"
+                android:layout_toEndOf="@+id/im_image_profile"
+                android:ellipsize="end"
+                android:textColor="@color/theme_primary_text_inverse_color"
+                android:textSize="@dimen/text_size_m_large" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tx_text_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:paddingEnd="@dimen/normal_horizontal_margin"
+                android:paddingStart="@dimen/normal_horizontal_margin"
+                android:textColor="@color/theme_primary_text_inverse_color"
+                android:textSize="@dimen/text_size_medium" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/scroll_for_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/default_toolbar"
+        android:layout_marginBottom="@dimen/send_telepathy_action_height">
+
+        <com.atahani.telepathy.ui.component.DetectLEditText
+            android:id="@+id/etx_telepathy_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="@string/hint_telepathy_message"
+            android:inputType="textMultiLine"
+            android:padding="@dimen/normal_vertical_margin"
+            android:textColor="@color/theme_primary_text_color" />
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ly_action"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/send_telepathy_action_height"
+        android:layout_alignParentBottom="true">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fb_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/normal_vertical_margin"
+            android:clickable="true"
+            android:src="@mipmap/ic_send_white_24dp"
+            android:visibility="gone"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            app:pressedTranslationZ="12dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

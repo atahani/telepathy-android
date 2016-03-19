@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingEnd="@dimen/double_horizontal_margin"
+    android:paddingStart="@dimen/double_horizontal_margin">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tx_search_your_friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/normal_vertical_margin"
+        android:paddingTop="@dimen/normal_vertical_margin"
+        android:text="@string/label_search_your_friend_helper"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_m_large" />
+
+    <ImageView
+        android:id="@+id/im_search_your_friend_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_search_your_friend"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tx_or_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im_search_your_friend_help"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/normal_vertical_margin"
+        android:paddingTop="@dimen/normal_vertical_margin"
+        android:text="@string/label_or"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_m_large" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tx_app_invite_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_or_first"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="@dimen/normal_vertical_margin"
+        android:paddingTop="@dimen/normal_vertical_margin"
+        android:text="@string/label_app_invite_helper"
+        android:textAlignment="center"
+        android:textSize="@dimen/text_size_m_large" />
+
+    <ImageView
+        android:id="@+id/im_app_invite_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_app_invite_help"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+

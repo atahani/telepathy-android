@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dashboard recycler view and child view-->
+    <dimen name="dashboard_recycler_view_side_margin">28dp</dimen>
+    <dimen name="dashboard_recycler_view_top_margin">28dp</dimen>
+    <dimen name="message_column_view_side_margin">12dp</dimen>
+    <dimen name="message_column_view_bottom_margin">24dp</dimen>
+    <!--friend recycler view and child view-->
+    <dimen name="friend_recycler_view_side_margin">20dp</dimen>
+    <dimen name="friend_recycler_view_top_margin">16dp</dimen>
+    <dimen name="user_column_view_side_margin">8dp</dimen>
+    <dimen name="user_column_view_bottom_margin">16dp</dimen>
+    <dimen name="classify_message_width">370dp</dimen>
+</resources>

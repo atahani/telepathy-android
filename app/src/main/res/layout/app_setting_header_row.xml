@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tx_app_settings_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/normal_vertical_margin"
+        android:paddingBottom="@dimen/normal_vertical_margin"
+        android:paddingEnd="@dimen/normal_horizontal_margin"
+        android:paddingStart="@dimen/normal_horizontal_margin"
+        android:textSize="@dimen/text_size_large"
+        android:gravity="start"
+        android:textAppearance="@style/TextAppearance.FontPath"/>

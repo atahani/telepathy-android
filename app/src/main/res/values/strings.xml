@@ -1,0 +1,244 @@
+<resources>
+
+    <string name="invite_deep_link_template" translatable="false">https://telepathy.mobi/api/v1/user/%1$s</string>
+
+    <!--preference keys not translate - START-->
+    <string name="pref_access_token" translatable="false">access_token</string>
+    <string name="pref_refresh_token" translatable="false">refresh_token</string>
+    <string name="pref_app_id" translatable="false">app_id</string>
+    <string name="pref_is_in_sign_up_mode" translatable="false">is_in_sign_up_mode</string>
+    <string name="pref_is_register_device" translatable="false">is_register_device</string>
+    <string name="pref_last_app_version_name" translatable="false">last_app_version_name</string>
+    <string name="pref_user_id" translatable="false">user_id</string>
+    <string name="pref_profile_username" translatable="false">profile_username</string>
+    <string name="pref_profile_display_name" translatable="false">profile_display_name</string>
+    <string name="pref_profile_image_url" translatable="false">profile_image_url</string>
+    <string name="pref_profile_email" translatable="false">profile_email</string>
+    <string name="pref_profile_locale" translatable="false">profile_locale</string>
+    <string name="pref_dashboard_action_signal_type" translatable="false">dashboard_action_signal_type</string>
+    <string name="pref_is_in_dashboard_activity" translatable="false">is_in_dashboard_activity</string>
+    <string name="pref_telepathy_ttl" translatable="false">telepathy_ttl</string>
+    <string name="pref_last_application_open_at" translatable="false">last_application_open_at</string>
+    <string name="pref_friends_loaded_in_first_time" translatable="false">friends_loaded_in_first_time</string>
+    <string name="pref_telepathies_loaded_in_first_time" translatable="false">telepathies_loaded_in_first_time</string>
+    <string name="pref_profile_loaded_in_first_time" translatable="false">profile_loaded_in_first_time</string>
+    <string name="pref_badger_number" translatable="false">badger_number</string>
+    <string name="pref_is_enable_notifications_when_telepathies_matched" translatable="false">is_enable_notifications_when_telepathies_matched</string>
+    <string name="pref_is_enable_notifications_when_add_you_as_friend" translatable="false">is_enable_notifications_when_add_you_as_friend</string>
+    <string name="pref_vibrate_on_notifications" translatable="false">vibrate_on_notifications</string>
+    <string name="pref_notification_ringtone" translatable="false">notification_ringtone</string>
+    <string name="pref_should_get_classify_message_when_app_open" translatable="false">should_get_classify_message_when_app_open</string>
+    <!--theme and color pref-->
+    <string name="pref_should_recreate_when_other_change_profile" translatable="false">pref_should_recreate_when_other_change_profile</string>
+    <string name="pref_profile_theme_name" translatable="false">pref_profile_theme_name</string>
+    <string name="pref_profile_theme_res_id" translatable="false">pref_profile_theme_res_id</string>
+    <string name="pref_profile_theme_child_res_id" translatable="false">pref_profile_theme_child_res_id</string>
+    <string name="pref_theme_primary_color" translatable="false">pref_theme_primary_color</string>
+    <string name="pref_theme_primary_dark_color" translatable="false">pref_theme_primary_dark_color</string>
+    <string name="pref_theme_primary_light_color" translatable="false">pref_theme_primary_light_color</string>
+    <string name="pref_theme_accent_color" translatable="false">pref_theme_accent_color</string>
+    <string name="pref_last_application_error" translatable="false">pref_last_application_error</string>
+    <!--preference keys not translate - END-->
+
+    <!--app config START-->
+    <string name="normal_latin_font" translatable="false">"fonts/Roboto-Regular.ttf"</string>
+    <string name="normal_persian_font" translatable="false">"fonts/IRANSansMobile_Light.ttf"</string>
+    <string name="blank"></string>
+    <string name="telepathy_report_bug_email" translatable="false">report-bug@telepathy.mobi</string>
+    <string name="default_font">@string/normal_latin_font</string>
+    <string name="direction_type">LTR</string>
+    <string name="locale">en</string>
+    <string name="app_name">Telepathy</string>
+    <string name="application_share_link" translatable="false">https://telepathy.mobi</string>
+    <!--app config END-->
+
+    <!--titles START-->
+    <string name="title_telepathies">Telepathies</string>
+    <string name="title_edit_username">Edit Username</string>
+    <string name="title_edit_display_name">Edit Display Name</string>
+    <string name="title_about_telepathy">About Telepathy</string>
+    <string name="title_tab_message">Message</string>
+    <string name="title_tab_telepathy">Telepathy</string>
+    <string name="title_tab_friend">Friends</string>
+    <!--titles END-->
+
+    <!--setting START-->
+    <!--setting group title-->
+    <string name="setting_group_title_info">Info</string>
+    <string name="setting_group_title_notifications">Notifications</string>
+    <string name="setting_group_title_general">General</string>
+    <!--setting item-->
+    <string name="setting_username">Username</string>
+    <string name="setting_display_name">Display Name</string>
+    <string name="setting_got_pn_telepathies_matched">Telepathies matched</string>
+    <string name="setting_got_pn_add_you_as_friend">Someone add you as friend</string>
+    <string name="setting_sound">Sound</string>
+    <string name="setting_vibrate">Vibrate</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_theme">Theme</string>
+    <string name="setting_about_telepathy">About Telepathy</string>
+    <string name="setting_log_out">Log Out</string>
+    <string name="setting_notification_silent">Silent</string>
+    <!--setting END-->
+
+    <!--action items START-->
+    <string name="action_close">Close</string>
+    <string name="action_life_time">Choose Life Time</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_friend">Friends</string>
+    <string name="action_ok">OK</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_done">Done</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_no">No</string>
+    <string name="action_search">Search</string>
+    <string name="action_share_app_link">Share Application Link</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_send">Send</string>
+    <string name="action_change_image">Edit Image</string>
+    <string name="action_take_photo_by_camera">Take photo via camera</string>
+    <string name="action_choose_photo_from_gallery">Choose photo from gallery</string>
+    <string name="action_delete_photo">Remove Photo</string>
+    <string name="action_saving_photo">Saving Photo</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_add_as_friend">Add As Friend</string>
+    <string name="action_remove_from_friends">Remove From Friends</string>
+    <string name="action_telepathy">Telepathy</string>
+    <string name="action_send_telepathy">Send Telepathy</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_delete_messages">Delete Messages</string>
+    <string name="action_telepathy_again">Telepathy Again</string>
+    <string name="action_manage">Manage</string>
+    <string name="action_invite">Invite</string>
+    <string name="action_send_invitation">Send Invitation</string>
+    <string name="action_install_and_send_telepathy">Start Telepathy</string>
+    <!--action items END-->
+
+    <!--content description START-->
+    <string name="content_d_image_profile">Image Profile</string>
+    <string name="content_d_telepathies_matched">Telepathies Matched</string>
+    <string name="content_d_message_status">Message Status</string>
+    <string name="content_d_delete_user_account">Delete User Account</string>
+    <!--content description END-->
+
+    <!--re action START-->
+    <string name="re_action_loading">Loading …</string>
+    <string name="re_action_no_internet_connection">No internet connection</string>
+    <string name="re_action_server_unavailable">Server unavailable try again later</string>
+    <string name="re_action_internal_server_error">Unfortunately server has error try again later</string>
+    <string name="re_action_internal_app_error">Unfortunately application got error</string>
+    <string name="re_action_client_is_invalid">This application is not valid to communicate with our server</string>
+    <string name="re_action_user_locked">Your account has been locked !</string>
+    <string name="re_action_email_not_verified">Your Email in %1$s account is not verified !</string>
+    <string name="re_action_display_name_successfully_update">Display name successfully update</string>
+    <string name="re_action_username_successfully_update">Username successfully update</string>
+    <string name="re_action_username_should_be">Use only letters(a-z), numbers, underscore, and periods</string>
+    <string name="re_action_username_should_be_at_least_4_character">should be at least 4 character</string>
+    <string name="re_action_username_is_not_unique">Someone already have that username</string>
+    <string name="re_action_telepathy_should_have_message">Telepathy should have message !</string>
+    <string name="re_action_telepathies_matched">WoW telepathies matched !</string>
+    <string name="re_action_telepathy_successfully_send">Successfully send, wish match soon !</string>
+    <string name="re_action_telepathy_is_too_long">Telepathy message is too long !</string>
+    <string name="re_action_should_be_at_least_one_min">Should be at least one min.</string>
+    <string name="re_action_google_play_services_error_while_connecting">Google Play Services Error: %i</string>
+    <string name="re_action_enter_display_name">Enter your Name</string>
+    <string name="re_action_enter_username">Enter Username</string>
+    <string name="re_action_discard_send_telepathy_confirm_alert_message">Are you sure to discard this telepathy ?
+    </string>
+    <string name="re_action_remove_user_as_friend_confirm_alert_message">Are you sure to remove this user as friend ?</string>
+    <string name="re_action_on_disappearing_telepathy">Disappear telepathy …</string>
+    <string name="re_action_on_deleting_message">Deleting message …</string>
+    <string name="re_action_on_deleting_messages">Deleting messages …</string>
+    <string name="re_action_on_add_in_friend_list">Adding in friends list …</string>
+    <string name="re_action_on_remove_from_friend_list">Removing from friends list …</string>
+    <string name="re_action_on_sending_telepathy">Sending telepathy …</string>
+    <string name="re_action_on_updating_username">Updating username …</string>
+    <string name="re_action_on_updating_display_name">Updating display name …</string>
+    <string name="re_action_on_sign_in">Sign in …</string>
+    <string name="re_action_on_uploading_image_profile">Uploading image profile …</string>
+    <string name="re_action_on_deleting_current_image_profile">Deleting current image profile …</string>
+    <string name="re_action_on_complete_sign_up_progress">Completing sign up process …</string>
+    <string name="re_action_on_logging_out">Logging out …</string>
+    <string name="re_action_on_deleting_user_account">Deleting user account …</string>
+    <string name="re_action_on_changing_theme">Changing theme …</string>
+    <string name="re_action_on_changing_locale">Change locale …</string>
+    <string name="re_action_on_canceling_sign_in">Can not retrieve your account information.</string>
+    <string name="re_action_on_deny_external_storage_per_for_take_photo">Can not take photo without this permission
+    </string>
+    <string name="re_action_on_deny_external_storage_per_for_pick_photo">Can not pick photo without this permission
+    </string>
+    <string name="re_action_username_not_defined">not define yet !</string>
+    <!--re action END-->
+
+    <!--labels START-->
+    <string name="label_google_provider">Google</string>
+    <string name="label_set_life_time">Set Life Time</string>
+    <string name="label_hours">hours</string>
+    <string name="label_min">min</string>
+    <string name="label_day">days</string>
+    <string name="label_telepathy_to">To %1$s</string>
+    <string name="label_telepathy_text_body_size">%1$s / 480</string>
+    <string name="label_delete_message">Are you sure to delete this message ?</string>
+    <string name="label_delete_all_messages">Are you sure to delete all of the messages ?</string>
+    <string name="label_disappear_telepathy">Are you sure to disappear this telepathy ?</string>
+    <string name="label_delete_message_description">after deletion can not recover any
+        more !
+    </string>
+    <string name="label_disappear_telepathy_description">The telepathy disappear, and does not match any more !</string>
+    <string name="label_telepathy_status">Telepathy status</string>
+    <string name="label_telepathy_live">Live %1$s</string>
+    <string name="label_telepathies_matched">Matched %1$s</string>
+    <string name="label_message_receive">Receive %1$s</string>
+    <string name="label_message_read">Read %1$s</string>
+    <string name="label_telepathies_cross">Cross in %1$s</string>
+    <string name="label_time_day">%1$s day</string>
+    <string name="label_time_hour">%1$s hour</string>
+    <string name="label_time_min">%1$s min</string>
+    <string name="label_time_second">%1$s sec</string>
+    <string name="label_time_hour_and_min">%1$s hour and %2$s min</string>
+    <string name="label_time_min_and_sec">%1$s min and %2$s sec</string>
+    <string name="label_telepathy_matched_notification">Telepathy matched</string>
+    <string name="label_telepathy_matched_notification_with_user_name">Telepathy with %1$s matched</string>
+    <string name="label_telepathy_matched_notification_summary_text">%1$s new matched telepathy</string>
+    <string name="label_log_out">Are you sure to Log out ?</string>
+    <string name="label_log_out_description">After log out do not receive any matched telepathies !</string>
+    <string name="label_delete_user_account">Are you sure to delete account ?</string>
+    <string name="label_delete_user_account_description">After this action all of account information has been delete !</string>
+    <string name="label_intro_slide_one">Send telepathy to someone</string>
+    <string name="label_intro_slide_two">Specify live time for that</string>
+    <string name="label_intro_slide_three">In that time if she/he also send telepathy for you, they are match\n
+        otherwise disappear
+    </string>
+    <string name="label_invitation_title">Send Telepathy App Invite</string>
+    <string name="label_invitation_message">Install this application and Telepathy with me !</string>
+    <string name="label_rate_us_on_google_play_store">Rate us on the Play Store!</string>
+    <string name="label_telepathy_on_twitter">Telepathy on Twitter</string>
+    <string name="label_privacy_policy">Privacy Policy</string>
+    <string name="label_report_bug">Report Bug</string>
+    <string name="label_telepathy_for_android">Telepathy for Android %1$s</string>
+    <string name="label_report_bug_email_subject">Report Bug</string>
+    <string name="label_report_bug_choose_mail_app">Send mail by</string>
+    <string name="label_report_bug_device_information" translatable="false">Device Model : %1$s\nAndroid Ver : %2$s\nApp
+        Ver : %3$s\n\n
+    </string>
+    <string name="label_you_say">You: %1$s</string>
+    <string name="label_account_deleted">Account Deleted</string>
+    <string name="label_add_you_as_friend">Added You as Friend !</string>
+    <string name="label_not_found_any_person">Not found any person with this information</string>
+    <string name="label_do_not_have_any_message">don\'t have any message, go to friend tab and start telepathy with your friend.</string>
+    <string name="label_do_not_have_any_telepathy">don\'t have any telepathy, go to friend tab and start telepathy with your friend.</string>
+    <string name="label_or">OR</string>
+    <string name="label_search_your_friend_helper">don\'t have any friend, you can find user by name or username</string>
+    <string name="label_app_invite_helper">you can invite your friend to telepathy with you via AppInvite</string>
+    <string name="label_share_app_link_via_social">also you can share application link to social networks</string>
+    <!--labels END-->
+
+    <!--text input hint START-->
+    <string name="hint_display_name">Name</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_search_user">Search by name</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_telepathy_message">Telepathy Message</string>
+    <string name="hint_search_with_username">With %1$s</string>
+</resources>

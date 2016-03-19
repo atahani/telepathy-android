@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ly_main_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/half_horizontal_margin">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/normal_horizontal_margin"
+        android:layout_marginTop="@dimen/normal_vertical_margin"
+        android:background="@drawable/button_ripple_effect_circle"
+        android:clickable="true"
+        android:contentDescription="@string/action_close"
+        android:padding="@dimen/normal_drawable_padding"
+        android:src="@mipmap/ic_close_white_24dp" />
+
+    <ImageView
+        android:id="@+id/im_image_profile"
+        android:layout_width="@dimen/large_image_profile_size"
+        android:layout_height="@dimen/large_image_profile_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_vertical_margin"
+        android:contentDescription="@string/content_d_image_profile" />
+
+    <com.atahani.telepathy.ui.component.DetectLTextView
+        android:id="@+id/tx_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im_image_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/normal_vertical_margin"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_x_large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tx_display_name"
+        android:layout_marginTop="@dimen/normal_vertical_margin"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/half_horizontal_margin"
+        android:weightSum="2">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_telepathy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple_effect"
+            android:clickable="true"
+            android:contentDescription="@string/action_telepathy"
+            android:padding="@dimen/half_vertical_margin"
+            android:src="@mipmap/ic_telepathy_24dp" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_friend_action"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple_effect"
+            android:clickable="true"
+            android:contentDescription="@string/action_add_as_friend"
+            android:padding="@dimen/half_vertical_margin" />
+    </LinearLayout>
+</RelativeLayout>

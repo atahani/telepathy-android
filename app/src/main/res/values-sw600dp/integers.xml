@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="number_of_telepathies_for_each_request">14</integer>
+</resources>

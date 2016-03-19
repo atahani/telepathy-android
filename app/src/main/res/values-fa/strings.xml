@@ -1,0 +1,191 @@
+<resources>
+    <!--app config START-->
+    <string name="blank"></string>
+    <string name="default_font">@string/normal_persian_font</string>
+    <string name="direction_type">RTL</string>
+    <string name="locale">fa</string>
+    <string name="app_name">تلپاتی</string>
+    <!--app config END-->
+
+    <!--titles START-->
+    <string name="title_telepathies">تلپاتی</string>
+    <string name="title_edit_username">تغییر نام‌کاربری</string>
+    <string name="title_edit_display_name">تغییر نام</string>
+    <string name="title_about_telepathy">درباره تلپاتی</string>
+    <string name="title_tab_message">پیام‌</string>
+    <string name="title_tab_telepathy">تلپاتی</string>
+    <string name="title_tab_friend">دوستان</string>
+    <!--titles END-->
+
+    <!--setting START-->
+    <!--setting group title-->
+    <string name="setting_group_title_info">اطلاعات کاربری</string>
+    <string name="setting_group_title_notifications">اعلان‌ها</string>
+    <string name="setting_group_title_general">عمومی</string>
+    <!--setting item-->
+    <string name="setting_username">نام‌کاربری</string>
+    <string name="setting_display_name">نام</string>
+    <string name="setting_got_pn_telepathies_matched">تلپاتی‌ها منطبق می‌شوند</string>
+    <string name="setting_got_pn_add_you_as_friend">به لیست دوستان کسی، اضافه می‌شوید</string>
+    <string name="setting_sound">صدا</string>
+    <string name="setting_vibrate">لرزش</string>
+    <string name="setting_language">زبان</string>
+    <string name="setting_theme">پوسته</string>
+    <string name="setting_about_telepathy">درباره تلپاتی</string>
+    <string name="setting_log_out">خروج</string>
+    <string name="setting_notification_silent">سکوت</string>
+    <!--setting END-->
+
+    <!--action items START-->
+    <string name="action_close">بستن</string>
+    <string name="action_life_time">انتخاب زمان</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="action_friend">دوستان</string>
+    <string name="action_ok">باشه</string>
+    <string name="action_retry">سعی دوباره</string>
+    <string name="action_done">تایید</string>
+    <string name="action_yes">بلی</string>
+    <string name="action_edit">تغییر</string>
+    <string name="action_no">خیر</string>
+    <string name="action_search">جستجو</string>
+    <string name="action_share_app_link">همرسانی لینک اپ</string>
+    <string name="action_cancel">لغو</string>
+    <string name="action_send">ارسال</string>
+    <string name="action_change_image">تغییر تصویر</string>
+    <string name="action_take_photo_by_camera">گرفتن تصویر با دوربین</string>
+    <string name="action_choose_photo_from_gallery">انتخاب تصویر از گالری</string>
+    <string name="action_delete_photo">حذف تصویر</string>
+    <string name="action_saving_photo">ذخیره تصویر</string>
+    <string name="action_refresh">بازآوری</string>
+    <string name="action_add_as_friend">افزودن به دوستان</string>
+    <string name="action_remove_from_friends">حذف از لیست دوستان</string>
+    <string name="action_telepathy">تلپاتی</string>
+    <string name="action_send_telepathy">فرستادن تلپاتی</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_delete_messages">حذف پیام‌ها</string>
+    <string name="action_telepathy_again">تلپاتی دوباره</string>
+    <string name="action_manage">مدیریت</string>
+    <string name="action_invite">دعوت</string>
+    <string name="action_send_invitation">ارسال دعوتنامه</string>
+    <string name="action_install_and_send_telepathy">شروع کردن به تلپاتی</string>
+    <!--action items END-->
+
+    <!--content description START-->
+    <string name="content_d_image_profile">تصویر نمایه</string>
+    <string name="content_d_telepathies_matched">تلپاتی منطبق شده</string>
+    <string name="content_d_message_status">وضعیت پیام</string>
+    <string name="content_d_delete_user_account">حذف حساب کاربری</string>
+    <!--content description END-->
+
+    <!--re action START-->
+    <string name="re_action_loading">در حال بارگیری …</string>
+    <string name="re_action_no_internet_connection">به اینترنت متصل نمی‌باشید.</string>
+    <string name="re_action_server_unavailable">سرور در دسترس نمی‌باشد.</string>
+    <string name="re_action_internal_server_error">در سرور خطایی رخ داده است، دوباره سعی نمایید.</string>
+    <string name="re_action_internal_app_error">متاسفانه در برنامه خطایی رخ داده است.</string>
+    <string name="re_action_client_is_invalid">این برنامه برای ارتباط با سرورهای ما معتبر نمی‌باشد.</string>
+    <string name="re_action_user_locked">حساب کاربری شما مسدود شده است.</string>
+    <string name="re_action_email_not_verified">پست الکترونیک شما در %1$s تایید نشده است.</string>
+    <string name="re_action_display_name_successfully_update">نام شما با موفقیت به روزرسانی شد.</string>
+    <string name="re_action_username_successfully_update">نام کاربری با موفقیت به روزرسانی شد.</string>
+    <string name="re_action_username_should_be">از حروف لاتین، اعداد و . استفاده نمایید.</string>
+    <string name="re_action_username_should_be_at_least_4_character">حداقل باید ۴ کارکتر باشد.</string>
+    <string name="re_action_username_is_not_unique">نام کاربری توسط شخص دیگری در نظر گرفته شده است.</string>
+    <string name="re_action_telepathy_should_have_message">تلپاتی باید پیامی داشته باشد.</string>
+    <string name="re_action_telepathies_matched">تلپاتی‌ها منطبق گردید !</string>
+    <string name="re_action_telepathy_successfully_send">تلپاتی با موفقیت ارسال گردید.</string>
+    <string name="re_action_telepathy_is_too_long">پیام تلپاتی خیلی طولانی است.</string>
+    <string name="re_action_should_be_at_least_one_min">حداقل زمان انتخابی یک دقیقه می‌باشد.</string>
+    <string name="re_action_google_play_services_error_while_connecting">Google Play Services Error: %i</string>
+    <string name="re_action_enter_display_name">نام خود را وارد نمایید.</string>
+    <string name="re_action_enter_username">نام کاربری خود را وارد نمایید.</string>
+    <string name="re_action_discard_send_telepathy_confirm_alert_message">آیا مطمئن به لغو ارسال این تلپاتی می‌باشید ؟</string>
+    <string name="re_action_remove_user_as_friend_confirm_alert_message">آیا مطمئن به حذف این کاربر از لیست دوستان هستید؟</string>
+    <string name="re_action_on_disappearing_telepathy">ناپدیدشدن تلپاتی …</string>
+    <string name="re_action_on_deleting_message">حذف پیام …</string>
+    <string name="re_action_on_deleting_messages">حذف پیام‌ها …</string>
+    <string name="re_action_on_add_in_friend_list">افزودن در لیست دوستان …</string>
+    <string name="re_action_on_remove_from_friend_list">حذف از لیست دوستان …</string>
+    <string name="re_action_on_sending_telepathy">در حال ارسال تلپاتی …</string>
+    <string name="re_action_on_updating_username">به روزرسانی نام‌کاربری …</string>
+    <string name="re_action_on_updating_display_name">به روزرسانی نام نمایه …</string>
+    <string name="re_action_on_sign_in">در حال ورود به تلپاتی …</string>
+    <string name="re_action_on_uploading_image_profile">بارگذاری تصویر نمایه …</string>
+    <string name="re_action_on_deleting_current_image_profile">حذف تصویر نمایه …</string>
+    <string name="re_action_on_complete_sign_up_progress">تکمیل فرآیند ثبت نام …</string>
+    <string name="re_action_on_logging_out">خروج …</string>
+    <string name="re_action_on_deleting_user_account">حذف حساب کاربری …</string>
+    <string name="re_action_on_changing_theme">تغییر پوسته …</string>
+    <string name="re_action_on_changing_locale">تغییر زبان …</string>
+    <string name="re_action_on_canceling_sign_in">اطلاعات حساب کاربری دریافت نشد.</string>
+    <string name="re_action_on_deny_external_storage_per_for_take_photo">بدون این دسترسی تصویری از شما نمی‌توان گرفت.</string>
+    <string name="re_action_on_deny_external_storage_per_for_pick_photo">بدون این دسترسی نمی‌تواند تصویری انتخاب شود.</string>
+    <string name="re_action_username_not_defined">تعیین نشده است !</string>
+    <!--re action END-->
+
+    <!--labels START-->
+    <string name="label_google_provider">گوگل</string>
+    <string name="label_set_life_time">انتخاب زمان حیات</string>
+    <string name="label_hours">ساعت</string>
+    <string name="label_min">دقیقه</string>
+    <string name="label_day">روز</string>
+    <string name="label_telepathy_to">به %1$s</string>
+    <string name="label_telepathy_text_body_size">%1$s / ۴۸۰</string>
+    <string name="label_delete_message">آیا مطمئن به حذف این پیام هستید ؟</string>
+    <string name="label_delete_all_messages">آیا مطمئن به حذف تمامی پیام‌ها هستید ؟</string>
+    <string name="label_disappear_telepathy">آیا مطمئن به ناپدید شدن این تلپاتی هستید ؟</string>
+    <string name="label_delete_message_description">بعد از حذف قادر به بازیابی آن نمی‌باشید.</string>
+    <string name="label_disappear_telepathy_description">بعد از ناپدید شدن تلپاتی، دیگر امکان تطبیق آن وجود ندارد‌!</string>
+    <string name="label_telepathy_status">وضعیت تلپاتی</string>
+    <string name="label_telepathy_live">%1$s موجود می‌باشد</string>
+    <string name="label_telepathies_matched">منطبق شده %1$s</string>
+    <string name="label_message_receive">دریافت شده %1$s</string>
+    <string name="label_message_read">خوانده شده %1$s</string>
+    <string name="label_telepathies_cross">در %1$s</string>
+    <string name="label_time_day">%1$s روز</string>
+    <string name="label_time_hour">%1$s ساعت</string>
+    <string name="label_time_min">%1$s دقیقه</string>
+    <string name="label_time_second">%1$s ثانیه</string>
+    <string name="label_time_hour_and_min">%1$s ساعت و %2$s دقیقه</string>
+    <string name="label_time_min_and_sec">%1$s دقیقه و %2$s ثانیه</string>
+    <string name="label_telepathy_matched_notification">تلپاتی‌ها منطبق گردید.</string>
+    <string name="label_telepathy_matched_notification_with_user_name">تلپاتی با %1$s منطبق گردید.</string>
+    <string name="label_telepathy_matched_notification_summary_text">%1$s عدد تلپاتی منطبق گردیده است</string>
+    <string name="label_log_out">آیا مطمئن به خروج هستید؟</string>
+    <string name="label_log_out_description">بعد از خروج قادر به دریافت تلپاتی‌های منطبق شده نیستید!</string>
+    <string name="label_delete_user_account">آیا مطمئن به حذف حساب کاربری هستید؟</string>
+    <string name="label_delete_user_account_description">بعد از تایید تمامی اطلاعات حساب کاربری شما حذف خواهد شد.</string>
+    <string name="label_intro_slide_one">برای شخصی تلپاتی ارسال کنید</string>
+    <string name="label_intro_slide_two">برای آن تلپاتی زمانی مشخص کنید</string>
+    <string name="label_intro_slide_three">اگر در آن زمان مشخص، او نیز برای شما تلپاتی ارسال کند، پیام او را دریافت خواهید کرد، در غیر این صورت پیام شما از بین خواهد رفت</string>
+    <string name="label_invitation_title">فرستادن دعوتنامه برنامه تلپاتی</string>
+    <string name="label_invitation_message">بعد از نصب این برنامه می‌توانید با من تلپاتی کنید !</string>
+    <string name="label_rate_us_on_google_play_store">به ما امتیاز دهید!</string>
+    <string name="label_telepathy_on_twitter">تلپاتی در توییتر</string>
+    <string name="label_privacy_policy">حریم خصوصی</string>
+    <string name="label_report_bug">گزارش خطا در برنامه</string>
+    <string name="label_telepathy_for_android">تلپاتی اندروید نسخه %1$s</string>
+    <string name="label_report_bug_email_subject">گزارش خطا در برنامه</string>
+    <string name="label_report_bug_choose_mail_app">فرستادن ایمیل به وسیله:</string>
+    <string name="label_you_say">شما: %1$s</string>
+    <string name="label_account_deleted">حساب حذف شده</string>
+    <string name="label_add_you_as_friend">شما را به عنوان دوست انتخاب کرده است.</string>
+    <string name="label_not_found_any_person">شخصی با این اطلاعات پیدا نشد.</string>
+    <string name="label_do_not_have_any_message">هیچ پیامی ندارید، به قسمت دوستان رفته و با دوستی تلپاتی کنید.</string>
+    <string name="label_do_not_have_any_telepathy">هیچ تلپاتی ارسال شده‌ای ندارید، به قسمت دوستان رفته و با دوستی تلپاتی کنید.</string>
+    <string name="label_or">یا</string>
+    <string name="label_search_your_friend_helper">دوستی ندارید، شما می‌توانید در لیست کاربران براساس نام و یا نام‌کاربری جستجو کنید</string>
+    <string name="label_app_invite_helper">شما می‌توانید دوستان خود را از طریق AppInvite به تلپاتی با خود دعوت کنید</string>
+    <string name="label_share_app_link_via_social">همچنین شما می‌توانید لینک اپلیکیشن را داخل شبکه‌های اجتماعی به اشتراک بگذارید</string>
+    <!--labels END-->
+
+    <!--text input hint START-->
+    <string name="hint_display_name">نام</string>
+    <string name="hint_username">نام کاربری</string>
+    <string name="hint_search_user">نام کاربر</string>
+    <string name="hint_search">جستجو</string>
+    <string name="hint_telepathy_message">پیام تلپاتی</string>
+    <string name="hint_search_with_username">با %1$s</string>
+    <!--text input hint END-->
+
+</resources>

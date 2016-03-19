@@ -1,0 +1,82 @@
+<resources>
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="normal_drawable_padding">16dp</dimen>
+    <dimen name="half_horizontal_margin">8dp</dimen>
+    <dimen name="half_vertical_margin">8dp</dimen>
+    <dimen name="normal_horizontal_margin">16dp</dimen>
+    <dimen name="normal_vertical_margin">16dp</dimen>
+    <dimen name="double_vertical_margin">32dp</dimen>
+    <dimen name="double_horizontal_margin">32dp</dimen>
+
+
+    <!--main component-->
+    <dimen name="child_activity_size">@dimen/match_parent</dimen>
+
+    <!--text size-->
+    <dimen name="text_size_xsmall">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_m_large">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_x_large">20sp</dimen>
+    <dimen name="text_size_xx_large">24sp</dimen>
+    <dimen name="text_size_diff_large_small">6sp</dimen>
+
+    <!--dimens for component-->
+    <dimen name="main_toolbar_height">@dimen/abc_action_bar_default_height_material</dimen>
+    <dimen name="telepathy_column_header_height">128dp</dimen>
+    <dimen name="small_circle_image_size">56dp</dimen>
+    <!--dashboard recycler view and child view-->
+    <dimen name="dashboard_recycler_view_side_margin">0dp</dimen>
+    <dimen name="dashboard_recycler_view_top_margin">8dp</dimen>
+    <dimen name="message_column_view_side_margin">8dp</dimen>
+    <dimen name="message_column_view_bottom_margin">8dp</dimen>
+    <!--friend recycler view and child view-->
+    <dimen name="friend_recycler_view_side_margin">4dp</dimen>
+    <dimen name="friend_recycler_view_top_margin">8dp</dimen>
+    <dimen name="user_column_view_side_margin">4dp</dimen>
+    <dimen name="user_column_view_bottom_margin">8dp</dimen>
+
+    <dimen name="sign_in_button_width">222dp</dimen>
+    <dimen name="card_view_default_margin">8dp</dimen>
+    <dimen name="card_view_action_section_padding">8dp</dimen>
+    <dimen name="card_view_main_title_default_margin_top">24dp</dimen>
+    <dimen name="card_view_image_default_margin_top">16dp</dimen>
+    <dimen name="card_view_app_image_square_size">64dp</dimen>
+    <dimen name="complete_sign_up_element_width">230dp</dimen>
+    <dimen name="setting_item_height">68dp</dimen>
+    <dimen name="setting_icon_size">24dp</dimen>
+    <dimen name="setting_app_bar_height">160dp</dimen>
+    <dimen name="setting_image_profile_size">112dp</dimen>
+    <dimen name="setting_group_divider_height">8dp</dimen>
+    <dimen name="thin_divider_height">1dp</dimen>
+    <dimen name="default_margin_recycler_view_column">1dp</dimen>
+    <dimen name="default_progress_wheel_size">80dp</dimen>
+    <dimen name="icon_with_text_row_height">72dp</dimen>
+    <dimen name="user_row_title_padding_top">14dp</dimen>
+    <dimen name="user_row_action_button_size">24dp</dimen>
+    <dimen name="large_image_profile_size">112dp</dimen>
+    <dimen name="small_image_profile_size">40dp</dimen>
+    <dimen name="notification_image_profile_size">48dp</dimen>
+    <dimen name="message_icon_status">16dp</dimen>
+    <dimen name="user_message_max_width">290dp</dimen>
+    <dimen name="user_message_min_width">120dp</dimen>
+
+    <dimen name="user_column_image_height">162dp</dimen>
+    <dimen name="card_view_action_height">64dp</dimen>
+    <dimen name="user_column_action_icon_size">24dp</dimen>
+    <dimen name="nearby_fragment_width">260dp</dimen>
+    <dimen name="telepathy_panel_height">250dp</dimen>
+    <dimen name="telepathy_choose_person_recycler_item_padding">70dp</dimen>
+    <dimen name="telepathy_choose_person_recycler_height">140dp</dimen>
+    <dimen name="telepathy_choose_person_recycler_width">280dp</dimen>
+    <dimen name="send_telepathy_action_height">80dp</dimen>
+    <dimen name="circle_object_inside_app_size">210dp</dimen>
+    <dimen name="tab_indicator_height">3dp</dimen>
+    <dimen name="dashboard_tab_height">72dp</dimen>
+    <dimen name="dashboard_app_bar_height">128dp</dimen>
+    <dimen name="unread_message_indicator_circle_width">24dp</dimen>
+
+</resources>
